@@ -10,10 +10,10 @@ app.use((req, res) => {
     // console.log(req);
     console.log("request received")
     // res.send("this is a basic response");
-    // res.send({
-    //     name: "apple",
-    //     color: "red",
-    // })
+    res.send({
+        name: "apple",
+        color: "red",
+    })
    let code  = "<h1>Fruits<h1><ul><li>apple</li><li>orange</li><ul>";
-   res.send(code);
+//    res.send(code);
 })
